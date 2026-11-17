@@ -16,12 +16,12 @@ No connectivity failure was reported or reproduced.
 Command: ipconfig /all
 
 Findings:
-- IPv4 address: 192.168.12.14
-- Subnet mask: 255.255.255.0
-- Default gateway: 192.168.12.1
-- DHCP server: 192.168.12.1
-- DNS server: 192.168.12.1
-- DHCP lease information present.
+- IPv4 address: [REDACTED]
+- Subnet mask: [REDACTED]
+- Default gateway: [REDACTED]
+- DHCP server: [REDACTED]
+- DNS server: [REDACTED]
+- DHCP enabled and lease information present.
 
 ### 2. Test external IPv4 connectivity
 Command: ping 8.8.8.8
@@ -46,7 +46,7 @@ Conclusion: DNS resolution succeeded for this query.
 ### 4. Verify browser access
 Opened https://www.google.com in Chrome.
 
-Result: Google’s homepage loaded successfully.
+Result: Google's homepage loaded successfully.
 
 ## Resolution
 No fault was identified during testing.
@@ -58,3 +58,6 @@ No configuration changes were required.
 - Using ping and nslookup
 - Verifying browser access
 - Documenting findings without assuming a cause
+
+## Privacy
+Local network addresses have been redacted.
